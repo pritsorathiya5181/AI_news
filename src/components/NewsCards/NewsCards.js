@@ -3,7 +3,7 @@ import { Grid, Grow, Typography } from '@material-ui/core';
 import NewsCard from '../NewsCard/NewsCard';
 import React from 'react';
 import infoCards from './infoCard';
-import useStyles from './style';
+import useStyles from './styles';
 
 function NewsCards({ articles }) {
     const classes = useStyles();

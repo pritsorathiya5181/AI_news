@@ -1,7 +1,7 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@material-ui/core';
 
 import React from 'react';
-import useStyles from './style';
+import useStyles from './styles';
 
 const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
     const classes = useStyles();
