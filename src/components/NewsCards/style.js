@@ -5,5 +5,8 @@ export default makeStyles({
         padding: '0 5%',
         width: '100%',
         margin: 0,
+    },
+    infCardjas: {
+
     }
 });
